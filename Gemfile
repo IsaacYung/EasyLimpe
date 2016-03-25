@@ -16,6 +16,8 @@ gem 'puma'
 
 gem 'foundation-rails'
 
+gem 'angularjs-rails', '~> 1.5'
+
 gem 'rails-angular-material', :git => 'https://github.com/IsaacYung/rails-angular-material.git'
 
 # Use jquery as the JavaScript library

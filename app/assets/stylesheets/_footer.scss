@@ -4,6 +4,14 @@
 .footer {
   height: 12rem;
   background-color: $primary-color;
+
+  .button-footer {
+    margin-top: 75px;
+    background-color: $white;
+    color: $dark-gray;
+    font-weight: bold;
+    border-radius: 5px;
+  }
 }
 
 .content {
@@ -16,10 +24,7 @@
   margin-top: 54px;
   margin-left: 20px;
   border-right: solid 2px $white;
-}
-
-.button-footer {
-  background-color: $white;
+  min-width: 215px;
 }
 
 .footer-list {

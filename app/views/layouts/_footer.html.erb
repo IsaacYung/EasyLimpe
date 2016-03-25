@@ -1,4 +1,4 @@
-<footer class="row full-width footer">
+<footer class="row full-width footer" ng-cloak="" ng-controller="FooterCtrl"  ng-app="EasyLimpeApp">
   <%
     logo_img = image_tag('easylimpe-logo-footer.png', size: '200', alt: 'Logo EasyLimpe Branco')
     logo = link_to logo_img, '/', class: 'logo-link-footer'
@@ -7,6 +7,9 @@
     content_tag(:div, logo, class: 'large-2 medium-3 columns logo-footer')
   %>
   <%=
-    menu 'footer-list', 'small-2 large-2 columns menu-container-footer end'
+    menu 'footer-list', 'small-3 columns menu-container-footer end'
+  %>
+  <%=
+    content_tag(:button, 'Trabalhe na EasyLimpe', class: 'button button-footer')
   %>
 </footer>
