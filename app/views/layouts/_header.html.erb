@@ -1,9 +1,9 @@
-<section class="row full-width header">
+<header class="row full-width header">
   <%
     logo_img = image_tag('easylimpe-logo.png', alt: 'Logo EasyLimpe')
     logo = link_to logo_img, '/', class: 'logo-link'
 
-    menu = [
+    @menu = [
             (link_to 'Como Funciona', '#', class: 'menu-item'),
             (link_to 'Preços', '#',        class: 'menu-item'),
             (link_to 'Sobre Nós', '#',     class: 'menu-item')
@@ -13,14 +13,7 @@
     content_tag(:div, logo, class: 'large-2 medium-3 columns logo')
   %>
   <%=
-    list_menu =
-    content_tag(:ul, :class => 'inline-list') do
-      menu.collect do |option|
-        concat content_tag(:li, option)
-      end
-    end
-
-    content_tag(:div, list_menu, class: 'large-6 medium-5 columns menu-container')
+    menu 'inline-list', 'large-6 medium-5 columns menu-container'
   %>
   <div class="login-container">
     <div class="login">
@@ -30,4 +23,4 @@
       </ul>
     </div>
   </div>
-</section>
+</header>

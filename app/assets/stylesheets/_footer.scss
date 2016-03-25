@@ -1,0 +1,44 @@
+@import 'foundation_and_overrides';
+@import 'mixins';
+
+.footer {
+  height: 12rem;
+  background-color: $primary-color;
+}
+
+.content {
+  height: 50rem;
+}
+
+.footer .logo-footer {
+  text-align: right;
+  padding: 0 10px 0 2px;
+  margin-top: 54px;
+  margin-left: 20px;
+  border-right: solid 2px $white;
+}
+
+.button-footer {
+  background-color: $white;
+}
+
+.footer-list {
+  list-style: none;
+  margin-top: 54px;
+  margin-left: 0;
+
+  a {
+    color: $white;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 2px;
+
+    -webkit-transition: background-color 300ms, color 300ms;
+    transition: background-color 300ms, color 300ms;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+      color: $white;
+    }
+  }
+}

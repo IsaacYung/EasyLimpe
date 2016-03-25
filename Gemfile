@@ -16,6 +16,8 @@ gem 'puma'
 
 gem 'foundation-rails'
 
+gem 'rails-angular-material', :git => 'https://github.com/IsaacYung/rails-angular-material.git'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks

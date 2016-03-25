@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/IsaacYung/rails-angular-material.git
+  revision: fca36326f6d8bbc07d1d81b2e882a36e41f5c472
+  specs:
+    rails-angular-material (1.1.0.pre.rc1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -186,6 +192,7 @@ DEPENDENCIES
   pg (~> 0.15)
   puma
   rails (= 4.2.5.1)
+  rails-angular-material!
   rspec-rails (~> 3.0)
   rubocop
   sass-rails (~> 5.0)
