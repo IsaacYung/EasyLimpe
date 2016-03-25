@@ -1,0 +1,29 @@
+<section class="row full-width header">
+  <%
+    logo = image_tag('easylimpe-logo.png', alt: 'Logo EasyLimpe')
+    menu = [
+            (link_to 'Como Funciona', '#', class: 'menu-item'),
+            (link_to 'Preços', '#',        class: 'menu-item'),
+            (link_to 'Sobre Nós', '#',     class: 'menu-item')
+           ]
+  %>
+  <%=
+    content_tag(:div, logo, class: 'large-2 medium-3 columns logo')
+  %>
+  <%=
+    list_menu =
+    content_tag(:ul, :class => 'inline-list') do
+      menu.collect do |option|
+        concat content_tag(:li, option)
+      end
+    end
+
+    content_tag(:div, list_menu, class: 'large-6 medium-5 columns menu-container')
+  %>
+  <%=
+    content = image_tag(avatar_url, size: '52', class: 'gravatar')
+
+    login = content_tag(:div, content, class: 'login')
+    content_tag(:div, login, class: 'large-3 medium-4 columns login-container')
+  %>
+</section>

@@ -1,0 +1,51 @@
+@import 'foundation_and_overrides';
+@import 'mixins';
+
+.header {
+  @include box_shadow;
+}
+
+.logo {
+  padding: 5px 25px;
+}
+
+.menu-container ul {
+  text-transform: uppercase;
+
+  li {
+    cursor: pointer;
+    padding: 22px 10px;
+    height: 69px;
+    margin-left: 0;
+    display: block;
+
+    -webkit-transition: background-color 300ms, color 300ms;
+    transition: background-color 300ms, color 300ms;
+
+    a {
+      color: $dark-gray;
+    }
+
+    &:hover {
+      background-color: $dark-gray;
+    }
+
+    &:hover a {
+      color: $white;
+    }
+  }
+}
+
+.login-container {
+  padding-right: 34px;
+  .login {
+    @include gradient();
+    height: 69px;
+
+    .gravatar {
+      border-radius: 50%;
+      padding-top: 8px;
+      margin-left: 45px;
+    }
+  }
+}
