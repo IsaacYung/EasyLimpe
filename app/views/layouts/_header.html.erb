@@ -1,6 +1,8 @@
 <section class="row full-width header">
   <%
-    logo = image_tag('easylimpe-logo.png', alt: 'Logo EasyLimpe')
+    logo_img = image_tag('easylimpe-logo.png', alt: 'Logo EasyLimpe')
+    logo = link_to logo_img, '/', class: 'logo-link'
+
     menu = [
             (link_to 'Como Funciona', '#', class: 'menu-item'),
             (link_to 'Preços', '#',        class: 'menu-item'),
@@ -20,10 +22,12 @@
 
     content_tag(:div, list_menu, class: 'large-6 medium-5 columns menu-container')
   %>
-  <%=
-    content = image_tag(avatar_url, size: '52', class: 'gravatar')
-
-    login = content_tag(:div, content, class: 'login')
-    content_tag(:div, login, class: 'large-3 medium-4 columns login-container')
-  %>
+  <div class="login-container">
+    <div class="login">
+      <ul class="inline-list client">
+        <li><%= image_tag(avatar_url, size: '52', class: 'gravatar') %></li>
+        <li class="name text-center"><span>Isaac Yung Lopes</span></li>
+      </ul>
+    </div>
+  </div>
 </section>

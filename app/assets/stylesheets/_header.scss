@@ -3,6 +3,7 @@
 
 .header {
   @include box_shadow;
+  position: relative;
 }
 
 .logo {
@@ -37,15 +38,27 @@
 }
 
 .login-container {
-  padding-right: 34px;
+  padding-right: 30px;
+  width: 335px;
+  position: absolute;
+  right: 0;
+
   .login {
     @include gradient();
     height: 69px;
+    cursor: pointer;
 
     .gravatar {
       border-radius: 50%;
       padding-top: 8px;
-      margin-left: 45px;
+      margin-left: 25%;
+    }
+
+    .client .name {
+      padding-top: 20px;
+      text-shadow: 1px 1px 3px $black;
+      color: $white;
+      width: 54%;
     }
   }
 }
