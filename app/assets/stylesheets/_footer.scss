@@ -17,8 +17,8 @@
 .content {
   height: 50rem;
 
-  -webkit-transition: 1s -webkit-filter linear;
-  transition: 1s filter linear;
+  -webkit-transition: background-color 700ms ease-in-out;
+  transition: background-color 700ms ease-in-out;
 }
 
 .footer .logo-footer {

@@ -84,8 +84,7 @@
 }
 
 .darker-content {
-  -webkit-filter: blur(5px); /* Chrome, Safari, Opera */
-  filter: blur(5px);
+  background-color: #484848;
 }
 
 .sidebar-menu {
@@ -101,8 +100,8 @@
   -moz-box-shadow: 3px 10px 23px -5px rgba(0,0,0,0.75);
   box-shadow: 3px 10px 23px -5px rgba(0,0,0,0.75);
 
-  -webkit-transition: left 400ms;
-  transition: left 400ms;
+  -webkit-transition: left 500ms ease-in-out;
+  transition: left 500ms ease-in-out;
 
   ul {
     margin-left: 0;
