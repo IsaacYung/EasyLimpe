@@ -16,6 +16,9 @@
 
 .content {
   height: 50rem;
+
+  -webkit-transition: 1s -webkit-filter linear;
+  transition: 1s filter linear;
 }
 
 .footer .logo-footer {
