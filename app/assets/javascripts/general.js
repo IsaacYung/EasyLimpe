@@ -18,11 +18,11 @@ angular.module('EasyLimpeApp',['ngMaterial', 'ngMessages', 'material.svgAssetsCa
 (function(global, $){
   $('.mobile-menu').click(function(){
     $('.sidebar-menu').toggleClass('show-menu');
-    $('.content').toggleClass('.darker-content');
+    $('.content').toggleClass('darker-content');
   });
 
   $('.content').click(function(){
     $('.sidebar-menu').removeClass('show-menu');
-    $('.content').removeClass('.darker-content');
+    $('.content').removeClass('darker-content');
   });
 })(window, jQuery);

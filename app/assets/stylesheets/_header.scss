@@ -97,6 +97,10 @@
   background-color: $white;
   left: -80%;
 
+  -webkit-box-shadow: 3px 10px 23px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 10px 23px -5px rgba(0,0,0,0.75);
+  box-shadow: 3px 10px 23px -5px rgba(0,0,0,0.75);
+
   -webkit-transition: left 200ms;
   transition: left 200ms;
 
