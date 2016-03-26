@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+ruby '2.3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
 # Use postgresql as the database for Active Record
@@ -12,7 +12,15 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'puma'
+
+gem 'foundation-rails'
+
+gem 'rails_12factor', group: :production
+
+gem 'angularjs-rails', '~> 1.5'
+
+gem 'rails-angular-material', :git => 'https://github.com/IsaacYung/rails-angular-material.git'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

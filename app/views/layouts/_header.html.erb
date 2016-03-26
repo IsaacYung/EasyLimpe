@@ -1,0 +1,42 @@
+<header class="row full-width header">
+  <%
+    logo_img = image_tag('easylimpe-logo.png', alt: 'Logo EasyLimpe')
+    logo = link_to logo_img, '/', class: 'logo-link'
+
+    @menu = [
+              (link_to 'Como Funciona', '#', class: 'menu-item'),
+              (link_to 'Preços', '#',        class: 'menu-item'),
+              (link_to 'Sobre Nós', '#',     class: 'menu-item')
+            ]
+  %>
+  <%=
+    content_tag(:div, logo, class: 'small-5 large-2 medium-3 columns logo')
+  %>
+  <%=
+    content_tag(:button, nil, class: 'mobile-menu icon-th-menu show-for-small-only')
+  %>
+  <%=
+    menu 'inline-list', 'large-6 medium-5 columns menu-container hide-for-small-only'
+  %>
+  <div class="login-container hide-for-small-only">
+    <div class="login">
+      <ul class="inline-list client">
+        <li><%= image_tag(avatar_url, size: '52', class: 'gravatar') %></li>
+        <li class="name text-center"><span>Isaac Yung Lopes</span></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<div class="sidebar-menu show-for-small-only">
+  <div class="login-container">
+    <div class="login">
+      <ul class="inline-list client">
+        <li><%= image_tag(avatar_url, size: '52', class: 'gravatar') %></li>
+        <li class="name text-center"><span>Isaac Yung Lopes</span></li>
+      </ul>
+    </div>
+  </div>
+  <%=
+    menu '', 'large-6 medium-5 columns menu-container'
+  %>
+</div>

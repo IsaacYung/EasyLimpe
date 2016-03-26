@@ -1,0 +1,19 @@
+<footer class="row full-width footer" ng-cloak="" ng-controller="FooterCtrl"  ng-app="EasyLimpeApp">
+  <%
+    logo_img = image_tag('easylimpe-logo-footer.png', size: '200', alt: 'Logo EasyLimpe Branco')
+    logo = link_to logo_img, '/', class: 'logo-link-footer'
+  %>
+  <%=
+    content_tag(:div, logo, class: 'large-2 medium-3 columns logo-footer')
+  %>
+  <%=
+    menu 'footer-list', 'small-12 medium-3 columns menu-container-footer end'
+  %>
+  <%=
+    job = content_tag(:button, 'Trabalhe na EasyLimpe', class: 'button button-footer')
+    content_tag(:div, job, class: 'small-12 medium-2 columns text-center')
+  %>
+  <%=
+    content_tag(:div, '© 2016 - EasyLimpe Serviços de Internet LTDA.', class: 'small-12 columns copyright text-center')
+  %>
+</footer>
