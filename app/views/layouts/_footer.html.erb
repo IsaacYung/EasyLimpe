@@ -7,9 +7,13 @@
     content_tag(:div, logo, class: 'large-2 medium-3 columns logo-footer')
   %>
   <%=
-    menu 'footer-list', 'small-3 columns menu-container-footer end'
+    menu 'footer-list', 'small-12 medium-3 columns menu-container-footer end'
   %>
   <%=
-    content_tag(:button, 'Trabalhe na EasyLimpe', class: 'button button-footer')
+    job = content_tag(:button, 'Trabalhe na EasyLimpe', class: 'button button-footer')
+    content_tag(:div, job, class: 'small-12 medium-2 columns text-center')
+  %>
+  <%=
+    content_tag(:div, '© 2016 - EasyLimpe Serviços de Internet LTDA.', class: 'small-12 columns copyright text-center')
   %>
 </footer>

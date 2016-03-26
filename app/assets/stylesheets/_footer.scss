@@ -6,7 +6,7 @@
   background-color: $primary-color;
 
   .button-footer {
-    margin-top: 75px;
+    margin-top: 71px;
     background-color: $white;
     color: $dark-gray;
     font-weight: bold;
@@ -46,4 +46,43 @@
       color: $white;
     }
   }
+}
+
+.copyright {
+  margin-top: 22px;
+  font-size: 14px;
+  color: $white;
+  background-color: darken($primary-color, 10%);
+}
+
+.menu-container-footer {
+  text-align: left;
+}
+
+@media #{$small-only} {
+  .footer {
+    .button-footer {
+      margin-top: 9px;
+      text-align: center;
+    }
+
+    .logo-footer {
+      text-align: center;
+      margin-left: 8px;
+      margin-top: 25px;
+    }
+
+    .menu-container-footer {
+      text-align: center;
+    }
+
+    .menu-container-footer .footer-list {
+      margin-top: 12px;
+    }
+  }
+
+  .footer {
+    height: auto;
+  }
+
 }

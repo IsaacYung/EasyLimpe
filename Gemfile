@@ -16,6 +16,8 @@ gem 'puma'
 
 gem 'foundation-rails'
 
+gem 'rails_12factor', group: :production
+
 gem 'angularjs-rails', '~> 1.5'
 
 gem 'rails-angular-material', :git => 'https://github.com/IsaacYung/rails-angular-material.git'
