@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/IsaacYung/rails-angular-material.git
-  revision: fca36326f6d8bbc07d1d81b2e882a36e41f5c472
+  revision: 9a5601498331058453842c871fe055d4bebe0b0c
   specs:
     rails-angular-material (1.1.0.pre.rc1)
 
