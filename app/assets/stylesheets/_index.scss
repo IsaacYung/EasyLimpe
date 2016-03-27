@@ -36,13 +36,28 @@
 }
 
 .prices-table {
-  margin-bottom: 3rem;
+  color: $dark-gray;
+
+  .price:hover {
+    background-color: $dark-gray !important;
+    color: $white;
+  }
+
+  .item-1:hover {
+    background-color: $dark-gray !important;
+  }
+
+  .price-budget {
+    padding: 0;
+    margin-left: 0;
+  }
 
   .price-budget .price {
     padding: 25px;
     margin-left: 0;
     list-style: none;
     min-height: 22rem;
+    cursor: pointer;
 
     strong {
       font-size: 30px;
@@ -87,10 +102,37 @@
   }
 }
 
+.add-container {
+  background-color: $light-gray;
+  padding: 3rem;
+
+  h3 {
+    padding: 15px 0;
+  }
+
+  .add li {
+    margin-left: 0;
+  }
+
+  i {
+    display: block;
+    padding-top: 12px;
+    font-size: 8rem;
+  }
+}
+
+.steps-container {
+  font-size: 25px;
+}
+
 @media #{$small-only} {
   .prices-table {
     div {
       padding-right: 25px;
+    }
+
+    .price-budget {
+      margin-left: 13px;
     }
   }
 }
