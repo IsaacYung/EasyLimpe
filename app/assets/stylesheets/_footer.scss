@@ -14,13 +14,6 @@
   }
 }
 
-.content {
-  height: 50rem;
-
-  -webkit-transition: background-color 700ms ease-in-out;
-  transition: background-color 700ms ease-in-out;
-}
-
 .footer .logo-footer {
   text-align: right;
   padding: 0 10px 0 2px;
@@ -52,7 +45,7 @@
 }
 
 .copyright {
-  margin-top: 22px;
+  margin-top: 26px;
   font-size: 14px;
   color: $white;
   background-color: darken($primary-color, 10%);

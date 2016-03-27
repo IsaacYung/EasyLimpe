@@ -84,7 +84,9 @@
 }
 
 .darker-content {
-  background-color: #484848;
+  //background-color: #484848;
+  -webkit-filter: alpha(opacity=60);
+      filter : alpha(opacity=60);
 }
 
 .sidebar-menu {
