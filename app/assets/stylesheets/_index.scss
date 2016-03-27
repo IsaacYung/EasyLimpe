@@ -123,6 +123,10 @@
 
 .steps-container {
   font-size: 23px;
+
+  ul {
+    padding: 0 30px;
+  }
 }
 
 @media #{$small-only} {
