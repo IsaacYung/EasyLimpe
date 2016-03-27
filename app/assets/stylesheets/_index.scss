@@ -122,7 +122,7 @@
 }
 
 .steps-container {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 @media #{$small-only} {
@@ -134,5 +134,14 @@
     .price-budget {
       margin-left: 13px;
     }
+  }
+
+  .steps-container {
+    font-size: 18px;
+    padding: 0 15px;
+  }
+
+  .subtitle {
+    font-size: 24px;
   }
 }
