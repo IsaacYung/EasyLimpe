@@ -36,10 +36,13 @@
 }
 
 .prices-table {
+  margin-bottom: 3rem;
+
   .price-budget .price {
     padding: 25px;
     margin-left: 0;
     list-style: none;
+    min-height: 22rem;
 
     strong {
       font-size: 30px;
