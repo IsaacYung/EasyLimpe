@@ -83,17 +83,28 @@
   left: 0 !important;
 }
 
+
+.content {
+  -webkit-transition: opacity 700ms ease-in-out;
+  -moz-transition: opacity 700ms ease-in-out;
+  -ms-transition: opacity 700ms ease-in-out;
+  -o-transition: opacity 700ms ease-in-out;
+  transition: opacity 700ms ease-in-out;
+}
+
 .darker-content {
   //background-color: #484848;
-  -webkit-filter: alpha(opacity=60);
-      filter : alpha(opacity=60);
+  filter: alpha(opacity=30);
+  -moz-opacity: 0.3;
+  -khtml-opacity: 0.3;
+  opacity: 0.3;
 }
 
 .sidebar-menu {
   position: absolute;
   width: 80%;
   max-width: 320px;
-  height: 100%;
+  height: 50rem;
   z-index: 1;
   background-color: $white;
   left: -90%;
