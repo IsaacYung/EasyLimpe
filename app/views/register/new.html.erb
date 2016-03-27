@@ -1,0 +1,20 @@
+<div class="new-client">
+  <div class="row">
+    <%=
+      logo = image_tag('logotype.png', alt: 'Logo EasyLimpe')
+      content_tag(:div, logo, class: 'small-3 columns small-centered logotype')
+    %>
+  </div>
+  <div class="row">
+    <div class="large-5 columns">
+      <label>Nome:
+        <input type="text" placeholder="Seu primeiro nome" />
+      </label>
+    </div>
+    <div class="large-7 columns">
+      <label>Sobrenome:
+        <input type="text" placeholder="Seu sobrenome" />
+      </label>
+    </div>
+  </div>
+</div>

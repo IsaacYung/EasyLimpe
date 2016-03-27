@@ -1,0 +1,15 @@
+@import 'mixins';
+@import 'foundation_and_overrides';
+
+.new-client {
+  label {
+    color: $white;
+  }
+
+  height: 45rem;
+  @include gradient;
+}
+
+.logotype {
+  padding: 2.5rem 2rem;
+}

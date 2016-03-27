@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'register/new'
+
+  get 'cadastro/novo', to: 'register#new'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
