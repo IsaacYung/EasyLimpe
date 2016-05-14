@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'easylimpe_font';
+  src:    url('easylimpe_font-f8bab59028dfaab0ee53a35c4c13fba87c741e65af1d07fe9c6ee1ca35d6b2d6.eot?wozd4n');
+  src:    url('easylimpe_font-f8bab59028dfaab0ee53a35c4c13fba87c741e65af1d07fe9c6ee1ca35d6b2d6.eot?wozd4n#iefix') format('embedded-opentype'),
+      url('easylimpe_font-eec281a20b1ad0bb53f4efa56b2c946135824cbd04d3c35d4087146ca5023f80.ttf?wozd4n') format('truetype'),
+      url('easylimpe_font-675675f377d15d522b73a656044f5bebac89bf623ee1ea71d0defecc1019bb4b.woff?wozd4n') format('woff'),
+      url('easylimpe_font-616baae4dd57bab001be517a5010631e56e37c5eb30c0596469bd8ba14c5c6d4.svg?wozd4n#easylimpe_font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'easylimpe_font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-iron:before { content: "\e902"; }
+.icon-window:before { content: "\e903"; }
+.icon-th-menu:before { content: "\e901"; }
+.icon-oven:before { content: "\e904"; }
+.icon-refrigerator:before { content: "\e905"; }
+.icon-home:before { content: "\e906"; }
+.icon-phone:before { content: "\e900"; }
+.icon-user:before { content: "\e907"; }
+.icon-plus:before { content: "\e908"; }
+.icon-minus:before { content: "\e909"; }
+.icon-cross:before { content: "\e90a"; }
+.icon-checkmark:before { content: "\e90b"; }
+.icon-google-plus2:before { content: "\e90c"; }
+.icon-facebook2:before { content: "\e90d"; }
+.icon-whatsapp:before { content: "\e90e"; }
+.icon-twitter:before { content: "\e90f"; }
+.icon-file-pdf:before { content: "\e910"; }

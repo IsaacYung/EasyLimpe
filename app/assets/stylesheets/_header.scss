@@ -1,0 +1,142 @@
+@import 'foundation_and_overrides';
+@import 'mixins';
+
+.header {
+  @include box_shadow;
+  position: relative;
+}
+
+.logo {
+  padding: 5px 25px;
+}
+
+.menu-container ul {
+  text-transform: uppercase;
+
+  li {
+    cursor: pointer;
+    padding: 22px 10px;
+    height: 69px;
+    margin-left: 0;
+    display: block;
+
+    -webkit-transition: background-color 300ms, color 300ms;
+    transition: background-color 300ms, color 300ms;
+
+    a {
+      color: $dark-gray;
+    }
+
+    &:hover {
+      background-color: $dark-gray;
+    }
+
+    &:hover a {
+      color: $white;
+    }
+  }
+}
+
+.header .mobile-menu {
+  font-size: 36px;
+  color: $dark-gray;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 4px;
+  padding: 5px 10px;
+  float: right;
+  border-radius: 5px;
+
+  &:hover {
+    color: $white;
+    background-color: $dark-gray;
+  }
+}
+
+.login-container {
+  padding-right: 30px;
+  width: 335px;
+  position: absolute;
+  right: 0;
+
+  .login {
+    @include gradient();
+    height: 69px;
+    cursor: pointer;
+
+    .gravatar {
+      border-radius: 50%;
+      padding-top: 8px;
+      margin-left: 25%;
+    }
+
+    .client .name {
+      padding-top: 20px;
+      text-shadow: 1px 1px 3px $black;
+      color: $white;
+      width: 54%;
+    }
+  }
+}
+
+.show-menu {
+  left: 0 !important;
+}
+
+
+.content {
+  -webkit-transition: opacity 700ms ease-in-out;
+  -moz-transition: opacity 700ms ease-in-out;
+  -ms-transition: opacity 700ms ease-in-out;
+  -o-transition: opacity 700ms ease-in-out;
+  transition: opacity 700ms ease-in-out;
+}
+
+.darker-content {
+  //background-color: #484848;
+  filter: alpha(opacity=30);
+  -moz-opacity: 0.3;
+  -khtml-opacity: 0.3;
+  opacity: 0.3;
+}
+
+.sidebar-menu {
+  position: absolute;
+  width: 80%;
+  max-width: 320px;
+  height: 50rem;
+  z-index: 1;
+  background-color: $white;
+  left: -90%;
+
+  -webkit-box-shadow: 3px 10px 23px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 10px 23px -5px rgba(0,0,0,0.75);
+  box-shadow: 3px 10px 23px -5px rgba(0,0,0,0.75);
+
+  -webkit-transition: left 500ms ease-in-out;
+  transition: left 500ms ease-in-out;
+
+  ul {
+    margin-left: 0;
+  }
+
+  .login-container {
+    position: static;
+    width: 100%;
+    padding: 0;
+  }
+
+  .menu-container {
+    padding: 0;
+  }
+}
+
+@media #{$small-only} {
+  .logo {
+    padding: 5px 7px;
+  }
+
+  .header {
+    min-height: 59px;
+  }
+}

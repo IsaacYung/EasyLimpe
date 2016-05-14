@@ -1,0 +1,151 @@
+@import 'foundation_and_overrides';
+@import 'mixins';
+
+.subtitle {
+  padding: 4rem 0;
+  margin-bottom: 0;
+}
+
+.billboard {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: image-url('background_room.png');
+  height: 26rem;
+  text-align: center;
+  padding-top: 7rem;
+
+  h1 {
+    color: $white;
+  }
+
+  .display {
+    padding: 10px;
+    background-color: rgba(46, 46, 46, 0.9);
+  }
+
+  .bill-button {
+    margin-top: 2rem;
+    border-radius: 5px;
+    color: $dark-gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 16px 30px;
+    @include gradient();
+  }
+}
+
+.prices-table {
+  color: $dark-gray;
+
+  .price:hover {
+    background-color: $dark-gray !important;
+    color: $white;
+  }
+
+  .item-1:hover {
+    background-color: $dark-gray !important;
+  }
+
+  .price-budget {
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .price-budget .price {
+    padding: 25px;
+    margin-left: 0;
+    list-style: none;
+    min-height: 22rem;
+    cursor: pointer;
+
+    strong {
+      font-size: 30px;
+    }
+
+    li {
+      font-size: 14px;
+    }
+
+    span {
+      display: inline-block;
+      margin: 20px 0;
+    }
+
+    .disclaimer {
+      margin-left: 0;
+
+      li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+      }
+    }
+
+    .add {
+      margin-left: 51px;
+      text-align: left;
+    }
+  }
+
+  .item-1 {
+    @include gradient();
+  }
+
+  .item-2 {
+    background-color: $primary-color;
+  }
+
+  .item-3 {
+    background-color: $light-gray;
+  }
+}
+
+.add-container {
+  background-color: $light-gray;
+  padding: 3rem;
+
+  h3 {
+    padding: 15px 0;
+  }
+
+  .add li {
+    margin-left: 0;
+  }
+
+  i {
+    display: block;
+    padding-top: 12px;
+    font-size: 8rem;
+  }
+}
+
+.steps-container {
+  font-size: 23px;
+
+  ul {
+    padding: 0 30px;
+  }
+}
+
+@media #{$small-only} {
+  .prices-table {
+    div {
+      padding-right: 25px;
+    }
+
+    .price-budget {
+      margin-left: 13px;
+    }
+  }
+
+  .steps-container {
+    font-size: 18px;
+    padding: 0 15px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+}
