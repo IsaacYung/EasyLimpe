@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
+    <!-- BEGIN TRACKJS -->
+    <script type="text/javascript">window._trackJs = { token: '1616a1ddf6eb4a0a8e44fc3eac52aeb2' };</script>
+    <script type="text/javascript" src="https://d2zah9y47r7bi2.cloudfront.net/releases/current/tracker.js"></script>
+    <!-- END TRACKJS -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -18,5 +22,9 @@
     <%= render 'layouts/footer' %>
 
     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    <script type="text/javascript">
+      teste(aa);
+      console.log('Erro');
+    </script>
   </body>
 </html>
