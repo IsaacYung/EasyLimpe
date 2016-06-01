@@ -1,0 +1,624 @@
+  [1m[36m (70.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (76.0ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-05 01:14:21 -0300
+Processing by GeneralController#index as HTML
+  Rendered general/_billboard.html.erb (1.5ms)
+  Rendered general/_price.html.erb (0.3ms)
+  Rendered general/_additional.html.erb (0.2ms)
+  Rendered general/_steps.html.erb (0.2ms)
+  Rendered general/index.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 8836ms (Views: 8828.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-4b5241705834d9d283540770d7b1a5cfaf5785397c773b1347666eeee71ab2b9.css?body=1" for 127.0.0.1 at 2016-04-05 01:14:30 -0300
+
+
+Started GET "/assets/_icon-fonts.self-aee290a3714827f256f0cf369ce52329d978c38607fb40f6516d235fd804a60d.css?body=1" for 127.0.0.1 at 2016-04-05 01:14:30 -0300
+
+
+Started GET "/assets/_mixins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 01:14:30 -0300
+
+
+Started GET "/assets/_header.self-ab2fc7ad51180609c76bb609bd5ba870d6996c6ebc9ce86343908819d3ffd9e6.css?body=1" for 127.0.0.1 at 2016-04-05 01:14:30 -0300
+
+
+Started GET "/assets/general.self-9041f72eea3ffc0e52e6a4a4f1e854313e6cf833f833e506105ca427e14b5acc.css?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation_and_overrides.self-231798720a8b6348cf5ef6f90abe8c7baa619a14926a0ede09bfeb2dbe10a684.css?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/application.self-4f22ee513bff51c07ddbacea6716b3bb025259c40c0c44f68b3b024ed0ff7a2c.css?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/register.self-cfa231d22340a96c35c0430e0305a2a3f45f946fc4a29a7b2a1d23539c2bcded.css?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/angular-material.self-8a48f60c1f08e7d90e09db7a1f9e689e54a05f489fa1cfa335ba56ae7123f12e.css?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.self-adc0156b91fe762ad9930d3db94057d2a1d1b7efea2e2f500a16c1ab46b554af.css?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.core.self-148b822a960e3ecfad50cf8060cef1658e1a7dd157710ecea2071a4c9746bdf2.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.abide.self-9de7fa6a8f79ef818568a662b3eefc612061eea48b127c11206935b7b9ff6aab.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.accordion.self-36e9be8937ec2f65ce8e08de9027a689f977dce1130784e1fa3e17d3fac164e5.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.accordionMenu.self-8605cb8ebd5c6c7adf1ef15c44edbd332d6a0a12976c8ea1df3baa4cebfeb941.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.drilldown.self-e9ee0c44f206f1663756f49835c8475654464cbcff050190f8e99b4aef994da7.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.dropdown.self-3aae701066105dbfd839072c43e8de331865ae1b72e0e87b4ae51d60529f9f9e.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.dropdownMenu.self-e8ac87b28ac0f42e8a586946a6a7a8a3373474716cb8e9dc9cb7173b5216c36e.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.equalizer.self-8117128571f4672a3f5a3f80c07b7055cadced50d3d927c5eeb6af9b735a99ab.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/_index.self-52f7b72b1e1917d44049c488a521618c94bf12e7dd0dbdafb063522866598663.css?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.interchange.self-f9cce99927f29a16cbf63ea4de046d3382e7e5b2e6827cb95b36be506500ae6a.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+
+
+Started GET "/assets/_settings.self-480ca80bac4d6cfd464f47560852ba4eaa16b05957ef9384ea23410800f45d73.css?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+Started GET "/assets/foundation.magellan.self-5dafdf2de29a7a9f6518a3c6121c9acc4756281c18be0ce3b532208d46250b19.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.orbit.self-5870c6db57a7c1b16ee06d7241f0a90af0d3aa9fc8aefb02cafc5af0c6f75dd1.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.responsiveToggle.self-43c40897f3d624778a467deae3abff377aa4acd0f9543e007072e653149fec21.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+
+
+Started GET "/assets/foundation.offcanvas.self-6e37bf9b0d4e715e6f07a26d32e607e043b7f40043839fa1ea4247baef939942.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+Started GET "/assets/foundation.reveal.self-bada9f0f177aa5bcba6c09df170fe62d567a6e6ba1b7c13faa174cf1f7835923.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.responsiveMenu.self-fb3073c66fc021212d28625652716149544472eaf1c4840ebb33a0502c7bb1ae.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.sticky.self-5ea10bd37a762229edc48713b5c1e31bee363eb4d186d64e1404808dfe145374.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.slider.self-3fafd5ccd6f486e957d1dba780a8a93c98c31b0cbe7a152c04e3840077d34204.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.tabs.self-ffa2fb43e1aef7d3451f7c290eb769ecad0351e8dc0cbecc155ee2ca57563a27.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.toggler.self-f3dadc2f36d0f19fa8312317cda8c4a8a76a02d62832a6e00caae56d0c55ee28.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.tooltip.self-f5704390df0b5edf89faad0973a7a6a6b9cbf9cffdd748f7fa92b6e97b9b444f.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+
+
+Started GET "/assets/foundation.util.keyboard.self-2f631ccc194566cde321c90ff1cf9533bcf5838943e6409c73d9c2afd8dfcfc8.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+Started GET "/assets/foundation.util.box.self-69c9095c26be30b9b796ec4cc22eb2a694e5c38f5177bcc7b0f7e332c41758b3.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.util.motion.self-96f5145345f69a7fc9dfc03a47c96917fc09c88cd79cf67475a89ea965a3e0ec.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.util.mediaQuery.self-5db511bec350118db796cd1d02a28f1273b220b149d4022dbd639bba01a1fb2b.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.util.nest.self-4559d061cdbc6c6b0c5332976dac58ce8b2993f6a09d49341c841efba1fae391.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.util.timerAndImageLoader.self-35318fd9f7e9a5281af885334c65f4f778a35d2dffccffd21a74407b64248375.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.self-9e2a078724c35cb29f9c1d6c2894d45b03cf53499867de8494fe8e6a0f52d1bf.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.util.touch.self-29719871129327e235a23ee5c350815f6e77bc6501141363594044e3e37a0193.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/angular-animate.self-d91b09bbd4b37d4b5ce173787d7b76669a7669a1c71bb3dcba729ec028f828c9.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/angular-material.self-f67a60e7f3fef378b816fa53b2f4fa5f96e8b510151e870113b9e8e46b147e96.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/angular-messages.min.self-c1f4c5e622ed3d01d82a0ed5286d3b74799707b8845fa998e860e8ade53651de.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/angular-route.min.self-2bb5d39cdfbf51183b1c861afda021838cdacf35537b9e406f08a6dc389a789d.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/svg-assets-cache.self-d9f85ecb928ce0503f6a8b1dc9a78aa4544db5917bed33be9ac598acd3acff77.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/foundation.util.triggers.self-2f02930c985dcb141a8bfe804312854dab32bbddafb8d83afe79bcc8c9bd7abd.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/angular-aria.min.self-8c646bf1b7a1278930e8df6e07efbc4673919fc7511ae0faec85cf11511573b5.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/general.self-b174aca6e543b97fdd4090f535bb43dafac9d96d8344ce1567dc417729fdb9cd.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/register.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/easylimpe_font-eec281a20b1ad0bb53f4efa56b2c946135824cbd04d3c35d4087146ca5023f80.ttf?wozd4n" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/application.self-79a300d240bbf145c9af961805bc87f18e9f73bd1cda275895295c80d8552d3f.js?body=1" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/easylimpe-logo-6eab7daa4f44734f0b0604235831f4e1bfe9ac04a5e2b54b57e411ab6e3d151f.png" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/background_room-48abb1d630a8a91128f3223b2492166fa123d97b0a2a5927a8da122cbd2acd02.png" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/assets/easylimpe-logo-footer-beadbcd72f145b68582965b9d584d5f5984ad7b6262b76e7ec631bd6a790c2ee.png" for 127.0.0.1 at 2016-04-05 01:14:31 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-07 18:46:30 -0300
+Processing by GeneralController#index as HTML
+  Rendered general/_billboard.html.erb (0.4ms)
+  Rendered general/_price.html.erb (0.3ms)
+  Rendered general/_additional.html.erb (0.3ms)
+  Rendered general/_steps.html.erb (0.3ms)
+  Rendered general/index.html.erb within layouts/application (15.7ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.9ms)
+Completed 200 OK in 835ms (Views: 820.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-4b5241705834d9d283540770d7b1a5cfaf5785397c773b1347666eeee71ab2b9.css?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/_header.self-ab2fc7ad51180609c76bb609bd5ba870d6996c6ebc9ce86343908819d3ffd9e6.css?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/_icon-fonts.self-aee290a3714827f256f0cf369ce52329d978c38607fb40f6516d235fd804a60d.css?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/_mixins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/_settings.self-480ca80bac4d6cfd464f47560852ba4eaa16b05957ef9384ea23410800f45d73.css?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation_and_overrides.self-231798720a8b6348cf5ef6f90abe8c7baa619a14926a0ede09bfeb2dbe10a684.css?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/_index.self-52f7b72b1e1917d44049c488a521618c94bf12e7dd0dbdafb063522866598663.css?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/general.self-9041f72eea3ffc0e52e6a4a4f1e854313e6cf833f833e506105ca427e14b5acc.css?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/register.self-cfa231d22340a96c35c0430e0305a2a3f45f946fc4a29a7b2a1d23539c2bcded.css?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/application.self-4f22ee513bff51c07ddbacea6716b3bb025259c40c0c44f68b3b024ed0ff7a2c.css?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.self-adc0156b91fe762ad9930d3db94057d2a1d1b7efea2e2f500a16c1ab46b554af.css?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/angular-material.self-8a48f60c1f08e7d90e09db7a1f9e689e54a05f489fa1cfa335ba56ae7123f12e.css?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+Started GET "/assets/foundation.core.self-148b822a960e3ecfad50cf8060cef1658e1a7dd157710ecea2071a4c9746bdf2.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.dropdown.self-3aae701066105dbfd839072c43e8de331865ae1b72e0e87b4ae51d60529f9f9e.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.abide.self-9de7fa6a8f79ef818568a662b3eefc612061eea48b127c11206935b7b9ff6aab.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.accordionMenu.self-8605cb8ebd5c6c7adf1ef15c44edbd332d6a0a12976c8ea1df3baa4cebfeb941.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.accordion.self-36e9be8937ec2f65ce8e08de9027a689f977dce1130784e1fa3e17d3fac164e5.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.drilldown.self-e9ee0c44f206f1663756f49835c8475654464cbcff050190f8e99b4aef994da7.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.dropdownMenu.self-e8ac87b28ac0f42e8a586946a6a7a8a3373474716cb8e9dc9cb7173b5216c36e.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.magellan.self-5dafdf2de29a7a9f6518a3c6121c9acc4756281c18be0ce3b532208d46250b19.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.offcanvas.self-6e37bf9b0d4e715e6f07a26d32e607e043b7f40043839fa1ea4247baef939942.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.equalizer.self-8117128571f4672a3f5a3f80c07b7055cadced50d3d927c5eeb6af9b735a99ab.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.responsiveToggle.self-43c40897f3d624778a467deae3abff377aa4acd0f9543e007072e653149fec21.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.interchange.self-f9cce99927f29a16cbf63ea4de046d3382e7e5b2e6827cb95b36be506500ae6a.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.orbit.self-5870c6db57a7c1b16ee06d7241f0a90af0d3aa9fc8aefb02cafc5af0c6f75dd1.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.responsiveMenu.self-fb3073c66fc021212d28625652716149544472eaf1c4840ebb33a0502c7bb1ae.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.sticky.self-5ea10bd37a762229edc48713b5c1e31bee363eb4d186d64e1404808dfe145374.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.reveal.self-bada9f0f177aa5bcba6c09df170fe62d567a6e6ba1b7c13faa174cf1f7835923.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.slider.self-3fafd5ccd6f486e957d1dba780a8a93c98c31b0cbe7a152c04e3840077d34204.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.util.box.self-69c9095c26be30b9b796ec4cc22eb2a694e5c38f5177bcc7b0f7e332c41758b3.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.tabs.self-ffa2fb43e1aef7d3451f7c290eb769ecad0351e8dc0cbecc155ee2ca57563a27.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.tooltip.self-f5704390df0b5edf89faad0973a7a6a6b9cbf9cffdd748f7fa92b6e97b9b444f.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.util.motion.self-96f5145345f69a7fc9dfc03a47c96917fc09c88cd79cf67475a89ea965a3e0ec.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.toggler.self-f3dadc2f36d0f19fa8312317cda8c4a8a76a02d62832a6e00caae56d0c55ee28.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+
+Started GET "/assets/foundation.util.touch.self-29719871129327e235a23ee5c350815f6e77bc6501141363594044e3e37a0193.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+Started GET "/assets/foundation.util.keyboard.self-2f631ccc194566cde321c90ff1cf9533bcf5838943e6409c73d9c2afd8dfcfc8.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.util.mediaQuery.self-5db511bec350118db796cd1d02a28f1273b220b149d4022dbd639bba01a1fb2b.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.util.nest.self-4559d061cdbc6c6b0c5332976dac58ce8b2993f6a09d49341c841efba1fae391.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.util.timerAndImageLoader.self-35318fd9f7e9a5281af885334c65f4f778a35d2dffccffd21a74407b64248375.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/angular-animate.self-d91b09bbd4b37d4b5ce173787d7b76669a7669a1c71bb3dcba729ec028f828c9.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.util.triggers.self-2f02930c985dcb141a8bfe804312854dab32bbddafb8d83afe79bcc8c9bd7abd.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/foundation.self-9e2a078724c35cb29f9c1d6c2894d45b03cf53499867de8494fe8e6a0f52d1bf.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/angular-aria.min.self-8c646bf1b7a1278930e8df6e07efbc4673919fc7511ae0faec85cf11511573b5.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/angular-route.min.self-2bb5d39cdfbf51183b1c861afda021838cdacf35537b9e406f08a6dc389a789d.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/svg-assets-cache.self-d9f85ecb928ce0503f6a8b1dc9a78aa4544db5917bed33be9ac598acd3acff77.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/angular-material.self-f67a60e7f3fef378b816fa53b2f4fa5f96e8b510151e870113b9e8e46b147e96.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+
+
+Started GET "/assets/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+Started GET "/assets/register.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/angular-messages.min.self-c1f4c5e622ed3d01d82a0ed5286d3b74799707b8845fa998e860e8ade53651de.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+
+
+Started GET "/assets/easylimpe-logo-6eab7daa4f44734f0b0604235831f4e1bfe9ac04a5e2b54b57e411ab6e3d151f.png" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+Started GET "/assets/general.self-b174aca6e543b97fdd4090f535bb43dafac9d96d8344ce1567dc417729fdb9cd.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/application.self-79a300d240bbf145c9af961805bc87f18e9f73bd1cda275895295c80d8552d3f.js?body=1" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/easylimpe-logo-footer-beadbcd72f145b68582965b9d584d5f5984ad7b6262b76e7ec631bd6a790c2ee.png" for 127.0.0.1 at 2016-04-07 18:46:31 -0300
+
+
+Started GET "/assets/background_room-48abb1d630a8a91128f3223b2492166fa123d97b0a2a5927a8da122cbd2acd02.png" for 127.0.0.1 at 2016-04-07 18:46:32 -0300
+
+
+Started GET "/assets/easylimpe_font-eec281a20b1ad0bb53f4efa56b2c946135824cbd04d3c35d4087146ca5023f80.ttf?wozd4n" for 127.0.0.1 at 2016-04-07 18:46:32 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-07 21:14:19 -0300
+Processing by GeneralController#index as HTML
+  Rendered general/_billboard.html.erb (0.4ms)
+  Rendered general/_price.html.erb (0.4ms)
+  Rendered general/_additional.html.erb (0.3ms)
+  Rendered general/_steps.html.erb (0.2ms)
+  Rendered general/index.html.erb within layouts/application (18.1ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 707ms (Views: 683.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cadastro/novo" for 127.0.0.1 at 2016-04-07 21:14:56 -0300
+Processing by RegisterController#new as HTML
+  Rendered register/new.html.erb within layouts/application (218.2ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 428ms (Views: 420.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logotype-a1133ea0bdedd4d5875d237f148e1260a22b03cef6fe214341faa95021c50b09.png" for 127.0.0.1 at 2016-04-07 21:14:56 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-07 21:15:03 -0300
+Processing by GeneralController#index as HTML
+  Rendered general/_billboard.html.erb (0.6ms)
+  Rendered general/_price.html.erb (0.5ms)
+  Rendered general/_additional.html.erb (1.1ms)
+  Rendered general/_steps.html.erb (0.3ms)
+  Rendered general/index.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 142ms (Views: 141.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cadastro/novo" for 127.0.0.1 at 2016-04-07 21:15:45 -0300
+Processing by RegisterController#new as HTML
+  Rendered register/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 99ms (Views: 98.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-14 14:39:30 -0300
+Processing by GeneralController#index as HTML
+  Rendered general/_billboard.html.erb (0.4ms)
+  Rendered general/_price.html.erb (0.3ms)
+  Rendered general/_additional.html.erb (0.2ms)
+  Rendered general/_steps.html.erb (0.3ms)
+  Rendered general/index.html.erb within layouts/application (17.9ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 639ms (Views: 616.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_footer.self-4b5241705834d9d283540770d7b1a5cfaf5785397c773b1347666eeee71ab2b9.css?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation_and_overrides.self-231798720a8b6348cf5ef6f90abe8c7baa619a14926a0ede09bfeb2dbe10a684.css?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/general.self-9041f72eea3ffc0e52e6a4a4f1e854313e6cf833f833e506105ca427e14b5acc.css?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/register.self-cfa231d22340a96c35c0430e0305a2a3f45f946fc4a29a7b2a1d23539c2bcded.css?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/application.self-4f22ee513bff51c07ddbacea6716b3bb025259c40c0c44f68b3b024ed0ff7a2c.css?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/_header.self-ab2fc7ad51180609c76bb609bd5ba870d6996c6ebc9ce86343908819d3ffd9e6.css?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/angular-material.self-8a48f60c1f08e7d90e09db7a1f9e689e54a05f489fa1cfa335ba56ae7123f12e.css?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.self-adc0156b91fe762ad9930d3db94057d2a1d1b7efea2e2f500a16c1ab46b554af.css?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.core.self-148b822a960e3ecfad50cf8060cef1658e1a7dd157710ecea2071a4c9746bdf2.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.abide.self-9de7fa6a8f79ef818568a662b3eefc612061eea48b127c11206935b7b9ff6aab.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.accordion.self-36e9be8937ec2f65ce8e08de9027a689f977dce1130784e1fa3e17d3fac164e5.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.accordionMenu.self-8605cb8ebd5c6c7adf1ef15c44edbd332d6a0a12976c8ea1df3baa4cebfeb941.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.drilldown.self-e9ee0c44f206f1663756f49835c8475654464cbcff050190f8e99b4aef994da7.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.dropdown.self-3aae701066105dbfd839072c43e8de331865ae1b72e0e87b4ae51d60529f9f9e.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.dropdownMenu.self-e8ac87b28ac0f42e8a586946a6a7a8a3373474716cb8e9dc9cb7173b5216c36e.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.equalizer.self-8117128571f4672a3f5a3f80c07b7055cadced50d3d927c5eeb6af9b735a99ab.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.interchange.self-f9cce99927f29a16cbf63ea4de046d3382e7e5b2e6827cb95b36be506500ae6a.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.magellan.self-5dafdf2de29a7a9f6518a3c6121c9acc4756281c18be0ce3b532208d46250b19.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.offcanvas.self-6e37bf9b0d4e715e6f07a26d32e607e043b7f40043839fa1ea4247baef939942.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.orbit.self-5870c6db57a7c1b16ee06d7241f0a90af0d3aa9fc8aefb02cafc5af0c6f75dd1.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.responsiveMenu.self-fb3073c66fc021212d28625652716149544472eaf1c4840ebb33a0502c7bb1ae.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.responsiveToggle.self-43c40897f3d624778a467deae3abff377aa4acd0f9543e007072e653149fec21.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.reveal.self-bada9f0f177aa5bcba6c09df170fe62d567a6e6ba1b7c13faa174cf1f7835923.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.slider.self-3fafd5ccd6f486e957d1dba780a8a93c98c31b0cbe7a152c04e3840077d34204.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.sticky.self-5ea10bd37a762229edc48713b5c1e31bee363eb4d186d64e1404808dfe145374.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.tabs.self-ffa2fb43e1aef7d3451f7c290eb769ecad0351e8dc0cbecc155ee2ca57563a27.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.toggler.self-f3dadc2f36d0f19fa8312317cda8c4a8a76a02d62832a6e00caae56d0c55ee28.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.tooltip.self-f5704390df0b5edf89faad0973a7a6a6b9cbf9cffdd748f7fa92b6e97b9b444f.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.util.box.self-69c9095c26be30b9b796ec4cc22eb2a694e5c38f5177bcc7b0f7e332c41758b3.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.util.keyboard.self-2f631ccc194566cde321c90ff1cf9533bcf5838943e6409c73d9c2afd8dfcfc8.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.util.mediaQuery.self-5db511bec350118db796cd1d02a28f1273b220b149d4022dbd639bba01a1fb2b.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.util.motion.self-96f5145345f69a7fc9dfc03a47c96917fc09c88cd79cf67475a89ea965a3e0ec.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.util.nest.self-4559d061cdbc6c6b0c5332976dac58ce8b2993f6a09d49341c841efba1fae391.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.util.timerAndImageLoader.self-35318fd9f7e9a5281af885334c65f4f778a35d2dffccffd21a74407b64248375.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.util.touch.self-29719871129327e235a23ee5c350815f6e77bc6501141363594044e3e37a0193.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.util.triggers.self-2f02930c985dcb141a8bfe804312854dab32bbddafb8d83afe79bcc8c9bd7abd.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/foundation.self-9e2a078724c35cb29f9c1d6c2894d45b03cf53499867de8494fe8e6a0f52d1bf.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/angular.self-670e61b742d53fbb8bfe764be7135a342d1bd238f241e5d6621e0d670e95cbb9.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/angular-material.self-f67a60e7f3fef378b816fa53b2f4fa5f96e8b510151e870113b9e8e46b147e96.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/angular-animate.self-d91b09bbd4b37d4b5ce173787d7b76669a7669a1c71bb3dcba729ec028f828c9.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/angular-resource.self-e858935775da1e762cc2d1afd7e82932e307d94eee728b1530e3997798d78961.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/angular-aria.min.self-8c646bf1b7a1278930e8df6e07efbc4673919fc7511ae0faec85cf11511573b5.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/angular-messages.min.self-c1f4c5e622ed3d01d82a0ed5286d3b74799707b8845fa998e860e8ade53651de.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/angular-route.min.self-2bb5d39cdfbf51183b1c861afda021838cdacf35537b9e406f08a6dc389a789d.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/svg-assets-cache.self-d9f85ecb928ce0503f6a8b1dc9a78aa4544db5917bed33be9ac598acd3acff77.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/general.self-b174aca6e543b97fdd4090f535bb43dafac9d96d8344ce1567dc417729fdb9cd.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/register.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/application.self-79a300d240bbf145c9af961805bc87f18e9f73bd1cda275895295c80d8552d3f.js?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/easylimpe-logo-6eab7daa4f44734f0b0604235831f4e1bfe9ac04a5e2b54b57e411ab6e3d151f.png" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/easylimpe-logo-footer-beadbcd72f145b68582965b9d584d5f5984ad7b6262b76e7ec631bd6a790c2ee.png" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/_icon-fonts.self-aee290a3714827f256f0cf369ce52329d978c38607fb40f6516d235fd804a60d.css?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/_index.self-52f7b72b1e1917d44049c488a521618c94bf12e7dd0dbdafb063522866598663.css?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/_mixins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/_settings.self-480ca80bac4d6cfd464f47560852ba4eaa16b05957ef9384ea23410800f45d73.css?body=1" for 127.0.0.1 at 2016-05-14 14:39:31 -0300
+
+
+Started GET "/assets/background_room-48abb1d630a8a91128f3223b2492166fa123d97b0a2a5927a8da122cbd2acd02.png" for 127.0.0.1 at 2016-05-14 14:39:32 -0300
+
+
+Started GET "/assets/easylimpe_font-eec281a20b1ad0bb53f4efa56b2c946135824cbd04d3c35d4087146ca5023f80.ttf?wozd4n" for 127.0.0.1 at 2016-05-14 14:39:32 -0300
+
+
+Started GET "/cadastro/novo" for 127.0.0.1 at 2016-05-14 14:39:35 -0300
+Processing by RegisterController#new as HTML
+  Rendered register/new.html.erb within layouts/application (68.0ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 272ms (Views: 263.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logotype-a1133ea0bdedd4d5875d237f148e1260a22b03cef6fe214341faa95021c50b09.png" for 127.0.0.1 at 2016-05-14 14:39:35 -0300
